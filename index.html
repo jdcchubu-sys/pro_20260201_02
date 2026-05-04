@@ -1071,6 +1071,7 @@ async function submitForm(){
   }
 
   var gasPayload={
+    taikaiDate:'令和8年2月1日（日）',
     regLeader:regLeader,regPartner:regPartner,
     leaderKanji:leaderKanji,leaderKana:leaderKana,
     partnerKanji:partnerKanji,partnerKana:partnerKana,
@@ -1087,7 +1088,7 @@ async function submitForm(){
   var params={
     to_email:'jdc.chubu@gmail.com',
     to_name:leaderKanji+' / '+partnerKanji,
-    subject:'【プロフォーム】競技会申し込み書',
+    subject:'【プロ】競技会申し込み書',
     from_name:'2026中部ダンスフェスティバル申込受付',
     message:messageBody,
     reply_to:emailVal,
